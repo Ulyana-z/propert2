@@ -730,7 +730,7 @@ body {
     height: 80px;
 }
 
-.arrow-left {
+.arrow-right {
     transform: rotate(180deg);
 }
 
@@ -764,7 +764,6 @@ body {
 #bottom {
     display: flex;
     column-gap: 25px;
-    margin-left: 900px;
 }
 
 

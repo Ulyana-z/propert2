@@ -139,11 +139,11 @@
                                   </form>
                                   <form>
                                     <label class="appNotes" for="pin"></label>
-                                    <input style="width: 207px;height: 54px;" type="name" id="pin" placeholder="+7 (000) 000-0000">
+                                    <input style="width: 207px;height: 54px;" type="text" oninput="this.value = this.value.replace(/[^0-9]/g, '')" id="pin" placeholder="+7 (000) 000-0000">
                                   </form>
                                   <form>
                                     <label class="appNotes" for="pin"></label>
-                                    <input style="width: 207px;height: 54px;" type="name" id="pin" placeholder="E-mail">
+                                    <input style="width: 207px;height: 54px;" type="email" id="pin" placeholder="E-mail">
                                   </form>
                             <a class="btn--ap" href="#">Оставить заявку</a>
                         </div>
@@ -262,7 +262,7 @@
                                       </form>
                                       <form>
                                         <label class="sale__app" for="pin"></label>
-                                        <input style="width: 540px;height: 56px;" type="name" id="pin" placeholder="+7 (000) 000-0000">
+                                        <input style="width: 540px;height: 56px;"  type="text" oninput="this.value = this.value.replace(/[^0-9]/g, '')" id="pin" placeholder="+7 (000) 000-0000">
                                       </form>
                                       <form>
                                         <label class="sale__app" for="pin"></label>
@@ -300,19 +300,18 @@
                           <!--reviews-->
                           <div id="slider-container">
                             <div id="top">
-                                <img src="../property/img/reviews/OOjs_UI_icon_caret-ltr.svg.png" width="80" height="80">
+                                <img src="../slider/img/OOjs_UI_icon_caret-ltr.svg.png" alt="" class="arrow arrow-left">
                                 <div id="slider">
-                    
-                                    <img src="../property/img/reviews/2025-02-09_18-28-34.png" width="100" height="200" alt="" class="slider-image block">
-                                    <img src="../property/img/reviews/2025-02-09_18-28-34.png" width="100" height="200"  alt="" class="slider-image">
-                                    <img src="../property/img/reviews/2025-02-09_18-28-34.png" width="100" height="200"  alt="" class="slider-image">
-                                    <img src="../property/img/reviews/2025-02-09_18-28-34.png" width="100" height="200"  alt="" class="slider-image">
-                                </div>
-                                <img src="../property/img/reviews/183-1831886_scroll-arrow-to-right-comments-free-next-arrow-icon.png" width="80" height="80">
+                                  <img src="../slider/img/2025-02-09_18-28-34.png" alt="" class="slider-image block">
+                                  <img src="../slider/img/2025-02-09_18-28-34.png" alt="" class="slider-image">
+                                  <img src="../slider/img/2025-02-09_18-28-34.png" alt="" class="slider-image">
+                                  <img src="../slider/img/2025-02-09_18-28-34.png" alt="" class="slider-image">
+                              </div>
+                                  <img src="../slider/img/OOjs_UI_icon_caret-ltr.svg.png" alt="" class="arrow arrow-right">
                             </div>
                             <div id="bottom"></div>
                         </div>
-                        <script src="./app.txt" ></script>
+                        <script src="./app.js"></script>
                               
                             <!-- partner -->
                              <div class="partner" id="partner">
