@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     line-height: 20px;
     width: 168px;
-    height: 35px;
+    height: 45px;
     font-weight: bold;
     margin-left: 30px;
     padding-top: 10px;
@@ -178,8 +178,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     line-height: 24px;
     color: black;
-    padding-left: 120px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-left: 70px;
 }
 
 .right__subtitle {
@@ -218,6 +218,7 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
     opacity: 40%;
     padding-left: 50px;
+    padding-top: 10px;
 }
 
 /* options */
@@ -599,6 +600,7 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
     background-size: cover;
     height: 924px;
+    margin-bottom: 200px;
 }
 
 .sale__title {
@@ -708,6 +710,8 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 10%;
+    margin-bottom: 50px;
 }
 
 #slider {
@@ -743,7 +747,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .block {
     display: block;
-    animation: show 1.3s 1;
+    animation: show 2s 2;
     margin: 0 auto;
 }
 
@@ -761,6 +765,7 @@ h1, h2, h3, h4, h5, h6 {
 #bottom {
     display: flex;
     column-gap: 25px;
+    margin-left: 50%;
 }
 
 
